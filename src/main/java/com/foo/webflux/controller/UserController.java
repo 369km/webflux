@@ -15,7 +15,7 @@ public class UserController {
 
     @PostMapping
     public Mono<User> save() {
-        return userService.save(new User(1L, "fee"));
+        return userService.save(new User(2L, "fee"));
     }
 
     @GetMapping
